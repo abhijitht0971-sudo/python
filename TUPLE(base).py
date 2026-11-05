@@ -1,3 +1,5 @@
+# tuple is immutable collection
+
 # creating
 a=(1,2,3,4,"hello")
 print(a,type(a))
