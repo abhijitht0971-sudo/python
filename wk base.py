@@ -1,0 +1,22 @@
+x=427
+print(type(x),x)
+q="name"
+print(type(q),q)
+d=27.09
+print(type(d),d)
+x=True
+y=False
+print(type(x),x)
+print(type(y),y)
+i=5+3j+7j+4j
+print(type(i),i)
+n=None
+print(type(n),n)
+l=["red","blue","green"]
+print(type(l),l)
+s="salt","mango","tree",("one","two","three")
+print(type(s),s)
+r={"1,2","3,4","aeo","iu"}
+print(type(r),r)
+d={"start":"with me","end":"with you"}
+print(type(d),d)
