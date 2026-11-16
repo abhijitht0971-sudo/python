@@ -334,3 +334,109 @@
 # a = {"name": "Jack", "age": 20, "city": "america"}
 # b=a.setdefault("place","wow")
 # print(b)
+
+# DAY-6
+# a=-2.23
+# if a>0:
+#     print("positive")
+# elif a==-2.23:
+#     print("float")
+# elif a==0:
+#     print("zero")
+# else:
+#     print("negative")
+# a=input("enter a number: ")
+# print(a,type(a))
+
+# a=float(input("enter a number:"))
+# if a>0:
+#     print("positive")
+# elif a==-2.23:
+#     print("float")
+# elif a==0:
+#     print("zero")
+# else:
+#     print("negative")
+
+# if-else with and or not 
+# a=34
+# if a>0 and a<20:
+#     print("yes")
+# else:
+#     print('no') 
+
+# b=34
+# if b>0 or b<20:
+#     print("yes")
+# else:
+#     print('no') 
+
+# Nested if 
+# a=34
+# if a>0:
+#     print("yah")
+#     if a>20:
+#         print("right")
+#     else:
+#         print("wrong")
+# else:
+#     print("nil")
+
+# control flow statements
+
+# for loop
+# for i in range(12,0,-2):
+#     print(i)
+# a=["do","does","did"]
+# for i in a:
+#     print(i)
+# a=("abc","def","ghi")
+# for i in a:
+#     print(i)
+# a={"new","old","fresh"}
+# for i in a:
+#     print(i)
+# a={
+#     "name":"wayne",
+#     "age":19,
+#     "city":"italy"
+# }
+# for i in a:
+#     print(i)
+# for i in a:
+#     print(i,a[i])
+# print(a.items())
+# for i,j in a.items():
+#     print(i,j)
+ 
+# loops
+# a=1
+# while a>13:
+#     print(a)
+#     a+=1
+
+# pass 
+# a=1
+# if a>0:
+#     pass
+# else:
+#     print("negative")
+# for i in range(1,12):
+#     ...
+#     print(i)
+
+# break 
+# for i in range(1,15):
+#     if i==7:
+#         break
+#     print(i)
+
+# continue 
+# for i in range(1,14):
+#     if i==7:
+#         continue
+#     print(i)
+# for i in range(1,20):
+#     if i%2==0:
+#         continue
+#     print(i)
