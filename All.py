@@ -440,3 +440,67 @@
 #     if i%2==0:
 #         continue
 #     print(i)
+
+# DAY -7
+# FUNCTIONS
+# definition
+# def greet():
+#     print("hello")
+# # function calling
+# greet()
+
+# # parameters:variable listed in the function definition
+# def greet(name):
+#     print(f"hello {name}!")
+# # arguments:value passed when function is called
+# greet("nivin")
+# greet("kevin")
+
+# # type of arguments
+
+# # positional arguments
+# def greet(name,age,place):
+#     print(f"hello {name} your age is {age} and your place is {place}")
+# greet("lenin",21,"norway")
+
+# # keyword arguments
+# def greet(name,age,place):
+#     print(f"hello {name} your age is {age} and your place is {place}")
+# greet(age=19,place="berlin",name="jake")
+
+# # default arguments
+# def greet(name,age,place="uk"):
+#     print(f"hello {name} your age is {age} and your place is {place}")
+# greet("treesa",24)
+# greet("jerry",25,"seon")
+
+# # variable length arguments
+# # arbitrary arguments
+# def num(*a):
+#     print(a)
+# num(1,2,1,2,3,4,3,4,5,6,7,8,9,6)
+
+# # arbitrary keyword arguments
+# def details(**det):
+#     print(det)
+# details(name="james",age=26,place="canada",country="america")
+
+# # order of arguments
+# def details(name,*arg,**kwarg):
+#     print(name)
+#     print(arg)
+#     print(kwarg)
+
+# details("bin",1,3,5,7,9,"kevin",a=1,b=2,c=4)
+# # adding
+# def add(a,b):
+#     return a+b 
+# a=add(45,55)
+# print(a)
+
+# def sum(*n):
+#     total=0
+#     for i in n:
+#         total+=i
+#     return total
+# print(sum(1,9,8,7,6,5,4,3,2,8,10))
