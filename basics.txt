@@ -1,0 +1,7 @@
+name
+age
+place
+birth
+country
+job
+salary

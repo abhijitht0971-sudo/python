@@ -504,3 +504,219 @@
 #         total+=i
 #     return total
 # print(sum(1,9,8,7,6,5,4,3,2,8,10))
+
+# DAY-8
+# def add(a,b):
+#     return a+b
+# print(add(6,3))
+
+# add=lambda a,b:a+b
+# print(add(8,3))
+
+# # function scope
+# a=20 
+# def vb():
+#     a=12
+#     print(a)
+# vb()
+# print(a)
+
+# # user defined module 
+# import module as m 
+# print(dir(m))
+# m.greet1("gia")
+# from module import greet1
+# import module as m
+# print(m.greet1("james")) 
+
+# standard library
+
+# import math
+
+# print(math.pi)
+# print(math.pow(9,2))
+# print(math.factorial(9))
+
+# import datetime
+# now=datetime.datetime.now()
+# print(now)
+
+# import calendar
+# print(calendar.calendar(2000))
+# print(calendar.isleap(2020))
+# print(calendar.month(2027,1))
+
+# import random
+# a=random.randint(1,15)
+# print(a)
+
+# import os
+# print(os.getcwd())
+# print(os.name)
+
+# shutdown 
+# os.system("shutdown /s /t 0")
+
+# import sys 
+# print(sys.version)
+
+# import json
+# a={"name":"jake","age":23}
+# print(a,type(a))
+# b=json.dumps(a)
+# print(b,type(b))
+
+# a='{"name":"jake","age":23}'
+# print(a,type(a))
+# b=json.loads(a)
+# print(b,type(b))
+
+# json.dumps :- python to json 
+# json.loads :-json to python
+
+# third party liraries
+#numpy
+# import numpy as np
+# print(np.__version__)
+
+# a=np.array([[1,7,8,6],[2,4,6,8],[7,8,9,6]])
+# print(a,type(a))
+# print(a.shape)
+# print(a[[2],[1]])
+
+# pandas 
+# import pandas as pd 
+# print(pd.__version__)
+# df={'name':['a','b','c','d'],
+#     'age':[21,22,32,33],
+#     'wage':[150,210,302,110]}
+# a=pd.DataFrame(df,index=[1,2,3,4])
+# print(a)
+
+# matplotlib
+# import matplotlib.pyplot as plt
+
+# x=[1,2,3,4,5,6,7,8,9]
+# y=[9,8,7,6,5,4,3,2,1]
+# plt.plot(x,y)
+# plt.show()
+
+# requests
+# import requests
+# a=requests.get("https://www.google.com")
+# print(a.status_code)
+
+# DAY-9
+
+# file handling
+
+# read
+
+# with open("basics.txt","r") as file:
+#     print(file.read())
+
+# file=open("basics.txt","r")
+# print(file.read())
+# file.close()
+
+# with open("basics.txt","r") as file:
+#     print(file.readline())
+#     print(file.readline())
+
+# with open("basics.txt","r") as file:
+#     print(file.readlines)
+
+# write
+
+# with open("basics.txt","w") as file:
+#     print(file.write("hey ,helooo,hiii"))
+
+# with open("basics.txt","w") as file:
+    # print(file.writelines(['name\n', 'age\n', 'place\n', 'birth\n', 'country\n', 'job\n']))
+
+# appending
+
+# with open("basics.txt","a") as file:
+#     print(file.write("salary"))
+
+# tell
+
+# with open("basics.txt","r") as file:
+#     file.read()
+#     print(file.tell())
+
+# seek
+
+# with open("basics.txt","r") as file:
+#     file.seek(4)
+#     print(file.read())
+
+# path 
+
+# with open("C:\\Users\\Acer\\Documents\\basics.txt.txt") as file:
+#     file.seek(7)
+#     print(file.read())
+
+# Errors
+
+# SyntaxError
+# print("hello"
+
+# ZeroDivisionError
+# a=13
+# b=0
+# print(a/b)
+
+# NameError
+# a={name:adam}
+# print(a)
+
+# ValueError
+# a=[1,2,3,4,5,6]
+# print(a.remove(9))
+
+# IndexError
+# a=[1,2,3,4,5,6,7]
+# a[9]
+
+# KeyError
+# a={"name":"joe","age":20}
+# print(a["place"])
+
+# FileNotFoundError
+# file=open("sampe.txt")
+
+# exception handling 
+# syntax 
+# try:
+#     a=12
+#     b=0
+#     c=a/b
+# except ZeroDivisionError:
+#     print("you can't divided by zero")
+
+# a=16
+# b=0
+# try:
+#     c=a/b
+# except Exception as e:
+#     print(e)
+# else:
+#     print("th result is",c)
+# finally:print("this will always be printed")
+
+# raise Exception
+# a=-12
+# if a>0:
+#     print("positive")
+# else:
+#     raise ValueError("negative numbers not  allowed")
+
+# custom Exception
+# class aabbccError(Exception):
+#     pass
+# a=-10
+# if a>0:
+#     print("positive")
+# else:
+#     raise aabbccError("negative numbers not allowed")
