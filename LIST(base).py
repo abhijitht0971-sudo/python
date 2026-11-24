@@ -64,3 +64,27 @@
 # # extend
 # a.extend(b)
 # print(a)
+
+# list comprehension
+
+# n= 10
+# even=[]
+# odd=[]
+# for i in range(1,n+1):
+#     if i%2==0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+
+# print(even)
+# print(odd)
+
+# n=10
+# a=[x**2 for x in range(1,n+1) if x%2==0]
+# b=[x for x in range(1,n+1) if x%2!=0]
+# print(a)
+# print(b)
+
+# a=["jane","roy","ben"]
+# b=[i.upper() for i in a]
+# print(b)
