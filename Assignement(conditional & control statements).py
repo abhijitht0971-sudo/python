@@ -89,13 +89,13 @@
 #     print("fail")
 
 # 10.Check if a character is a vowel or consonant.
-# letter=input("enter a character:").lower()
-# if len(letter) !=1 or not letter.isalpha():
-#     print("please enter a single alphabet")
-# elif letter in ["a","e","i","o","u"]:
+# alpha=input("enter a character:")
+# a=["a","e","i","o","u"]
+# if alpha in a:
 #     print("vowel")
 # else:
-#     print("consonant")
+#      print("consonant")
+
 
 
 # 11.Print numbers from 1 to 10 but stop when number is 6.
@@ -189,7 +189,7 @@
 # The program should handle inputs in a case-insensitive manner. 
 # If the input does not match any valid color or number, display Invalid signal .
 
-# signal=input("enter traffic signal(1/red,2/yellow,3/green):").strip().lower()
+# signal=input("enter traffic signal:").strip().lower()
 
 # if signal in ("1","red"):
 #     print("stop and wait for 60 seconds")
